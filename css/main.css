@@ -138,7 +138,12 @@ p {
   line-height:1.285;
 }
  
- 
+ img{
+   width: 100%;
+ }
+ figure{
+   margin: 0;
+ }
 address {
  font-style: normal;
 }
@@ -224,7 +229,14 @@ footer .copyright{
 
 /* ------------------Mobile Styles------------------ */
 
-
+/* Header */
+header figure{
+width: 60%;
+display: flex;
+justify-content: center;  
+align-items: center;
+flex-flow: row wrap;
+}
 /* Hero Area */
 .hero-area{
   display: flex;
