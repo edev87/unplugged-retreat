@@ -174,6 +174,14 @@ address {
     align-items: center;
     flex-flow: row wrap;
    }
+    /* Header */
+header figure{
+  width: 60%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  flex-flow: row wrap;
+  }
 .header-divider{
   width: 100%;
   height: 1px;
@@ -216,10 +224,19 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 }
-footer .social-icons p{
-display: flex;
-justify-content: center;
-align-items: center;
+
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 footer .copyright{
   margin: 20px 0;
@@ -229,14 +246,7 @@ footer .copyright{
 
 /* ------------------Mobile Styles------------------ */
 
-/* Header */
-header figure{
-width: 60%;
-display: flex;
-justify-content: center;  
-align-items: center;
-flex-flow: row wrap;
-}
+
 /* Hero Area */
 .hero-area{
   background: (url(../img/jpeg/jake-melara.jpg);
